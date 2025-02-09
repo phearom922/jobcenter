@@ -1,0 +1,117 @@
+main Component****************
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import "tw-elements";
+// ============Component ===========
+import App from "./App.jsx";
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
+
+
+
+
+
+
+
+
+
+
+
+App Component*******************
+
+// import { useState } from "react";
+// import "./App.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// ==========import Components==========
+import RootLayout from "./components/RootLayout";
+// ==========import Pages==========
+import Home from "./pages/Home";
+import About_Us from "./pages/About_Us";
+import Contact_Us from "./pages/Contact_Us";
+import JobDetails from "./pages/JobDetails";
+import PostJob from "./pages/PostJob";
+import Searchable from "./pages/Searchable";
+
+
+
+const Router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootLayout />,
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "about", element: <About_Us /> },
+      { path: "contact", element: <Contact_Us /> },
+      { path: "post-job", element: <PostJob /> },
+      {path:"job-details/:id", element: <JobDetails />},
+      {path:"searchable", element: <Searchable />}
+
+    ],
+  },
+]);
+
+function App() {
+
+  return (
+    <>
+      <RouterProvider router={Router} />
+    </>
+  );
+}
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+
+RootLayout Component*****************
+import React from "react";
+import MainNav from "./MainNav";
+import Navbar from "./Navbar";
+import { Outlet } from "react-router-dom";
+import Footer from "./Footer";
+
+const RootLayout = () => {
+  return (
+    <div className="flex flex-col h-screen">
+      <MainNav />
+      <Navbar />
+
+      <div className="mb-auto">
+        <Outlet />
+      </div>
+
+      <div>
+        <Footer />
+      </div>
+    </div>
+  );
+};
+
+export default RootLayout;
+
+
+
+
+
+
+          <Route path="about-us" element={<About_Us />} />
+          <Route path="contact-us" element={<Contact_Us />} />
+          <Route path="post-job" element={<PostJob />} />
+          <Route path="searchable" element={<Searchable />} />
+
+          <Route path="job-details" element={<JobDetails />}>
+            <Route path=":id" element={<JobDetail />} />
+          </Route>

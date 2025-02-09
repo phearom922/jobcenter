@@ -1,0 +1,247 @@
+{
+  "user": [
+    {
+      "id": "1652089084715",
+      "username": "ron",
+      "fullname": "phearom",
+      "email": "ron_phearom@hotmail.com",
+      "password": "Phearom090790",
+      "term": true
+    }
+  ],
+  "job": [
+    {
+      "id": "1737953842125",
+      "title": "Phearom",
+      "Btn01": true,
+      "behalfCompany": "",
+      "category": "Media",
+      "address": {
+        "city": "1208 - SAENSOKH",
+        "country": "Cambodia"
+      },
+      "description": "Experience : Photoshop, Illustrator, Premirere Pro, After Efect",
+      "tags": [
+        "phtosho",
+        "AI",
+        "After Efect"
+      ],
+      "salary": "600",
+      "salaryType": "monthly",
+      "jobType": "part-time",
+      "experience": "bachelor-degree",
+      "companyName": "Successmore Being Cambodia",
+      "companyWebsite": "www.successmore.com",
+      "logoUrl": "SCM LOgo-96.png",
+      "photoUrls": [
+        "teacherArt.jpg",
+        "Job-02.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": "1738467945246",
+      "title": "ABC",
+      "Btn01": true,
+      "behalfCompany": "",
+      "category": "Newspaper",
+      "address": {
+        "city": "Phnom Penh",
+        "country": "Cambodia"
+      },
+      "description": "ttt",
+      "tags": [],
+      "salary": "2000",
+      "salaryType": "monthly",
+      "jobType": "full-time",
+      "experience": "bachelor-degree",
+      "companyName": "SCM",
+      "companyWebsite": "www.abc.chom",
+      "logoUrl": "Acleda-Bank-Logo.png",
+      "photoUrls": [
+        "Acleda-Bank.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": "1738468002985",
+      "title": "XXXX",
+      "Btn01": true,
+      "behalfCompany": "",
+      "category": "Finance",
+      "address": {
+        "city": "Phnom Penh",
+        "country": "Cambodia"
+      },
+      "description": "TTT",
+      "tags": [],
+      "salary": "200",
+      "salaryType": "monthly",
+      "jobType": "part-time",
+      "experience": "bachelor-degree",
+      "companyName": "AAA",
+      "companyWebsite": "ABS",
+      "logoUrl": "ABA-Bank-logo.png",
+      "photoUrls": [
+        "contactUs.jpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "1738468047137",
+      "title": "BBBB",
+      "Btn01": true,
+      "behalfCompany": "",
+      "category": "Engineering",
+      "address": {
+        "city": "1208 - SAENSOKH",
+        "country": "Cambodia"
+      },
+      "description": "SSS",
+      "tags": [
+        "SSSS "
+      ],
+      "salary": "3000",
+      "salaryType": "monthly",
+      "jobType": "full-time",
+      "experience": "bachelor-degree",
+      "companyName": "SS",
+      "companyWebsite": "SSS",
+      "logoUrl": "Acleda-Bank-Logo.png",
+      "photoUrls": [
+        "Prince bank logo.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": "1738468099795",
+      "title": "CCCCC",
+      "Btn01": true,
+      "behalfCompany": "",
+      "category": "Newspaper",
+      "address": {
+        "city": "1208 - SAENSOKH",
+        "country": "Cambodia"
+      },
+      "description": "XXX",
+      "tags": [
+        "XXX"
+      ],
+      "salary": "3000",
+      "salaryType": "monthly",
+      "jobType": "full-time",
+      "experience": "bachelor-degree",
+      "companyName": "XXX",
+      "companyWebsite": "XXXXX",
+      "logoUrl": "Prince-Bank-Logo.png",
+      "photoUrls": [
+        "dentistDoctor.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": "1738468190345",
+      "title": "BBAAA",
+      "Btn01": true,
+      "behalfCompany": "",
+      "category": "Transportation",
+      "address": {
+        "city": "Seng Sok",
+        "country": "Cambodia"
+      },
+      "description": "VVVV",
+      "tags": [
+        "VVVV"
+      ],
+      "salary": "4000",
+      "salaryType": "monthly",
+      "jobType": "full-time",
+      "experience": "bachelor-degree",
+      "companyName": "AAA",
+      "companyWebsite": "AAAA",
+      "logoUrl": "SCM LOgo-96.png",
+      "photoUrls": [
+        "customerTeamMember.jpg"
+      ],
+      "featured": false
+    },
+    {
+      "id": "1738468254560",
+      "title": "SSSS",
+      "Btn01": true,
+      "behalfCompany": "",
+      "category": "Legal",
+      "address": {
+        "city": "1208 - SAENSOKH",
+        "country": "Cambodia"
+      },
+      "description": "wwww",
+      "tags": [
+        "ewwe"
+      ],
+      "salary": "5000",
+      "salaryType": "annually",
+      "jobType": "part-time",
+      "experience": "associate-degree",
+      "companyName": "mmm",
+      "companyWebsite": "mmm",
+      "logoUrl": "SCM LOgo-124.png",
+      "photoUrls": [
+        "marketing&personalAssistant.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": "1738468307886",
+      "title": "CCCC",
+      "Btn01": true,
+      "behalfCompany": "",
+      "category": "Legal",
+      "address": {
+        "city": "1208 - SAENSOKH",
+        "country": "Cambodia"
+      },
+      "description": "SSS",
+      "tags": [
+        "SSS"
+      ],
+      "salary": "7000",
+      "salaryType": "hourly",
+      "jobType": "full-time",
+      "experience": "bachelor-degree",
+      "companyName": "XXX",
+      "companyWebsite": "XXXXXXX",
+      "logoUrl": "homeNerseryWorker.jpg",
+      "photoUrls": [
+        "dashboard.jpg"
+      ],
+      "featured": true
+    },
+    {
+      "id": "1738468382204",
+      "title": "CCCC",
+      "Btn01": true,
+      "behalfCompany": "",
+      "category": "Design",
+      "address": {
+        "city": "1208 - SAENSOKH",
+        "country": "Cambodia"
+      },
+      "description": "VVCCC",
+      "tags": [
+        "CXAAA"
+      ],
+      "salary": "1200",
+      "salaryType": "hourly",
+      "jobType": "part-time",
+      "experience": "bachelor-degree",
+      "companyName": "ZZZ",
+      "companyWebsite": "ZZZ",
+      "logoUrl": "howToApplyJob.jpg",
+      "photoUrls": [
+        "chef.jpg"
+      ],
+      "featured": true
+    }
+  ]
+}
