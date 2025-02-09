@@ -27,7 +27,7 @@ const Contact = () => {
         <div className="flex items-center  w-full">
           <img
             className="rounded-md overflow-hidden"
-            src={`/public/contactUs.jpg`}
+            src="/public/contactUs.jpg"
             alt=""
           />
         </div>
