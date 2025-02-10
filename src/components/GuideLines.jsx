@@ -1,4 +1,7 @@
 import React from "react";
+import job1 from "/public/job-01.jpg"
+import job2 from "/public/job-02.jpg"
+import job3 from "/public/job-03.jpg"
 
 const GuideLines = () => {
   return (
@@ -146,7 +149,7 @@ const GuideLines = () => {
           <div className="max-w-2xl space-y-2">
             <div className="w-full rounded-md overflow-hidden">
               <img
-                src={`/public/job-01.jpg`}
+                src={job1}
                 alt="guideline"
                 className="object-cover object-center w-full max-h-full"
               />
@@ -154,14 +157,14 @@ const GuideLines = () => {
             <div className="flex gap-2">
               <div className="w-full rounded-md overflow-hidden">
                 <img
-                  src={`/public/job-02.jpg`}
+                  src={job2}
                   alt="Job2"
                   className="object-cover object-center w-full max-h-full"
                 />
               </div>
               <div className="w-full rounded-md overflow-hidden">
                 <img
-                  src={`/public/job-03.jpg`}
+                  src={job3}
                   alt="job3"
                   className="object-cover object-center w-full max-h-full"
                 />
