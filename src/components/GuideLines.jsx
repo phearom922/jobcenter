@@ -1,4 +1,5 @@
 import React from "react";
+import jobImage03 from "/public/job-03.jpg"
 
 const GuideLines = () => {
   return (
@@ -161,7 +162,7 @@ const GuideLines = () => {
               </div>
               <div className="w-full rounded-md overflow-hidden">
                 <img
-                  src={`/public/job-03.jpg`}
+                  src={jobImage03}
                   alt="job3"
                   className="object-cover object-center w-full max-h-full"
                 />
